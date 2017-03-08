@@ -23,7 +23,7 @@ Now it's definitely the right time to change this.
 
 All you have to do is
 
-1. got to the head of the master branch (if you aren't here
+1. Go to the head of the master branch (if you aren't here
 already)
 1. Start git bisect, telling git that the current commit is bad:
 
@@ -43,7 +43,7 @@ already)
     
      Using this, you only would have to check some comminds by hand
      until git tells you, that it has found the foul commit.
-   * by telling git to execute a command that tells it whether the
+   * or by telling git to execute a command that tells it whether the
      commit is good or bad:
     
      `git bisect run mvn test`
