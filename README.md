@@ -53,7 +53,7 @@ already)
 
    `git bisect reset`
 
-Belive me, when you have seen this little magic, you will reconsider
+Belief me, when you have seen this little magic, you will reconsider
 squashing commits.
 
 **Have fun!**
