@@ -36,12 +36,12 @@ already)
    
    `git bisect good`
 1. Let git search for the foul commit, either
-   * by execing commands and telling git whether the current commit
+   * by executing commands and telling git whether the current commit
      is good or bad:
     
      `git bisect good|bad`
     
-     Using this, you only would have to check some comminds by hand
+     Using this, you only would have to check some commits by hand
      until git tells you, that it has found the foul commit.
    * or by telling git to execute a command that tells it whether the
      commit is good or bad:
